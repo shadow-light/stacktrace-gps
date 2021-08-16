@@ -152,7 +152,7 @@
                 var mappedSource;
                 try {
                     mappedSource = sourceMapConsumer.sourceContentFor(loc.source);
-                } catch {}
+                } catch(){}
                 if (mappedSource) {
                     sourceCache[loc.source] = mappedSource;
                 }
